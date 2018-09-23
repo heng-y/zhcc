@@ -9,7 +9,7 @@ For compilation of the actual Chinese C compilation units, the shell script zhcc
 
 <ol>
   <li>Input the compilation unit into the perl script by gnu.org to get the UTF8 escapes</li>
-  <li>Input the new escaped file into gcc with the <code>gcc -incude chinese-encoded.h</code></li>
+  <li>Input the new escaped file into gcc with the <code>gcc -include chinese-encoded.h</code></li>
 </ol>
 
 As of now, a Makefile is not provided but one will be in the future.
