@@ -1,0 +1,7 @@
+# zhcc compilation shell script
+# by Heng Ye, GPLv3
+
+# perl script from GNU.org
+
+cat $1 | perl -pe 'BEGIN { binmode STDIN, ":utf8"; } s/(.)/ord($1) < 128 ? $1 : sprintf("\\U%08x", ord($1))/ge;' | gcc -xc $2 -include zhkeywords-encoded.h -
+
