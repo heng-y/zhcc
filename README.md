@@ -13,3 +13,7 @@ For compilation of the actual Chinese C compilation units, the shell script zhcc
 </ol>
 
 To install just type <code>make</code>.
+
+# TODO
+
+I have yet to translate the C standard libraries.
