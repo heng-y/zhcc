@@ -12,4 +12,4 @@ For compilation of the actual Chinese C compilation units, the shell script zhcc
   <li>Input the new escaped file into gcc with the <code>gcc -include chinese-encoded.h</code></li>
 </ol>
 
-As of now, a Makefile is not provided but one will be in the future.
+To install just type <code>make</code>.
